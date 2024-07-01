@@ -1,0 +1,62 @@
+provider "aws" {
+  region = "us-east-1"
+  profile = "manoj"
+}
+
+/*
+resource "aws_iam_user" "demo" {
+  name = "shree"
+
+}
+
+resource "aws_iam_user" "demo1" {
+  name = "om"
+}
+
+resource "aws_iam_user" "demo2" {
+  name = "ani"
+}
+
+resource "aws_iam_group" "grp" {
+  name = "devops-b34"
+}
+
+resource "aws_iam_user_group_membership" "grpadd" {
+   user = aws_iam_user.demo1.name
+
+   groups = [
+          aws_iam_group.grp.name
+         ]
+}
+
+*/
+
+/*
+resource "aws_s3_bucket" "bucky" {
+  bucket = "manoj-022"
+
+}
+
+resource "aws_s3_bucket_ownership_controls" "example" {
+  bucket =aws_s3_bucket.bucky.id
+  rule {
+    object_ownership = "BucketOwnerPreferred"
+  }
+}
+resource "aws_s3_bucket_acl" "achal" {
+  bucket = aws_s3_bucket.bucky.id
+  acl = "private"
+}
+
+resource "aws_instance" "s1" {
+  ami = "ami-08a0d1e16fc3f61ea"
+  instance_type = "t2.micro"
+  key_name = "locky"
+
+
+}
+*/
+resource "aws_key_pair" "deployer" {
+  key_name   = "deployer-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD3F6tyPEFEzV0LX3X8BsXdMsQz1x2cEikKDEY0aIj41qgxMCP/iteneqXSIFZBp5vizPvaoIR3Um9xK7PGoW8giupGn+EPuxIA4cDM4vzOqOkiMPhz5XK0whEjkVzTo4+S0puvDZuwIsdiW9mxhJc7tgBNL0cYlWSYVkz4G/fslNfRPW5mYAM49f4fhtxPb5ok4Q2Lg9dPKVHO/Bgeu5woMc7RY0p1ej6D4CKFE6lymSDJpW0YHX/wqE9+cfEauh7xZcG0q9t2ta6F6fmX0agvpFyZo8aFbXeUBr7osSCJNgvavWbM/06niWrOvYX2xwWdhXmXSrbX8ZbabVohBK41 email@example.com"
+}
