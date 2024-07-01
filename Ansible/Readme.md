@@ -33,11 +33,47 @@ ls -a
 
 vim authorized key
 ```
-**ping ansible IPs**
+**go to ansible-1 server and check the connection established or not using following command**
 ```
 ansible all -m ping
 ```
 **done**
+
+
+
+** now we write a playbook in ansible ,create a file playbook.yaml in /etc/ansible and add our configuration code**
+```
+vim /etc/ansible/playbook.yaml
+```
+```
+---
+- name: update and install and httpd
+  hosts: nodes
+  become: true
+
+  tasks:
+   
+  - name: Upgrade all packages
+    yum:
+     name: '*'
+     state: latest
+      
+  - name: Install the latest version of Apache
+    yum:
+     name: httpd
+     state: latest
+      
+  - name: Start Apache
+    service:
+     name:  httpd
+     state: started
+     enabled: true
+       
+  - name: Remove the Apache package
+    yum:
+      name: httpd
+      state: absent
+
 
 
 
