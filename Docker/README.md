@@ -19,3 +19,11 @@ It is a text document that contains necessary commands which on execution help a
 Docker image is created using a Dockerfile.
 
 ![image](https://github.com/manojv022/DevOps-Tools/assets/167419795/1b18e8a8-d286-499d-b78b-7c9473bd0cd6)
+
+
+**What is Docker Image?**
+
+It is a file, comprised of multiple layers, used to execute code in a Docker container. They are a set of instructions used to create docker containers. Docker Image is an executable package of software that includes everything needed to run an application. This image informs how a container should instantiate, determining which software components will run and how. Docker Container is a virtual environment that bundles application code with all the dependencies required to run the application. The application runs quickly and reliably from one computing environment to another.
+
+**What is Docker Container?**
+Docker container is a runtime instance of an image. Allows developers to package applications with all parts needed such as libraries and other dependencies. Docker Containers are runtime instances of Docker images. Containers contain the whole kit required for an application, so the application can be run in an isolated way. For eg.- Suppose there is an image of Ubuntu OS with NGINX SERVER when this image is run with the docker run command, then a container will be created and NGINX SERVER will be running on Ubuntu OS.
