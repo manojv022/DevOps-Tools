@@ -128,5 +128,5 @@ ansible-playbook <file name >
 
 
 
-![WhatsApp Image 2024-07-01 at 16 07 55_84889687](https://github.com/manojv022/DevOps-Tools/assets/167419795/2f5ac273-cfc7-4925-a004-8bc0bd017740)
+
 
