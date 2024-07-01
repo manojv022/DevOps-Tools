@@ -59,3 +59,32 @@ Tools like GitHub enhance team collaboration, code reviews, and project manageme
 **Track Changes:**
 
 Git tracks changes and maintains a history, making it easy to revert to previous versions.
+
+
+
+
+**Git Basic Commands**
+
+**Install Git**
+```
+yum install git -y
+```
+**Git Version Check**
+```
+git --version
+```
+**Configure Git: Set up your username and email.**
+```
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+**Create a Repository: Navigate to your project directory and initialize a Git repository.**
+```
+git init
+```
+**Make Your First Commit: Add files to the staging area and commit your changes.**
+```
+git add .
+git commit -m "Initial commit"
+```
+**
