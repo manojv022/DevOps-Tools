@@ -75,6 +75,58 @@ vim /etc/ansible/playbook.yaml
       state: absent
 
 
+```
+**Run the file command**
+```
+ansible-playbook <file name >
+```
+
+**apache tomcat script**
+```
+---
+- name: first_playbook
+  hosts: nodes
+  remote_user: ec2-user
+  become: true
+  tasks : 
+   
+    - name: upgrade the packages
+      yum:
+        name: "*"
+        state: latest
+    
+    - name: Install java 
+      yum:
+        name: java-11*
+        state: present
+
+    - name: Dowload tomcat file 
+      get_url:
+        url: https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.100/bin/apache-tomcat-8.5.100.tar.gz
+        dest: /home/ec2-user/apache-tomcat-8.5.100.tar.gz
+        mode: 744
+  
+    - name: Unzip tomcat file 
+      unarchive:
+        src: /home/ec2-user/apache-tomcat-8.5.100.tar.gz
+        dest: /home/ec2-user/
+        remote_src: yes
+        mode: 744
+
+    - name: Dowload Student.war file 
+      get_url:
+        url: https://s3-us-west-2.amazonaws.com/studentapi-cit/student.war
+        dest: /home/ec2-user/apache-tomcat-8.5.100/webapps/Student.war
+    
+    - name: Download SQL connector
+      get_url:
+       url: https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar
+       dest: /home/ec2-user/apache-tomcat-8.5.100/lib/mysql-connector-java-8.0.19
+
+    - name: Start tomcat service
+      shell:  bash /home/ec2-user/apache-tomcat-8.5.100/bin/catalina.sh start
 
 
+
+![WhatsApp Image 2024-07-01 at 16 07 55_84889687](https://github.com/manojv022/DevOps-Tools/assets/167419795/2f5ac273-cfc7-4925-a004-8bc0bd017740)
 
