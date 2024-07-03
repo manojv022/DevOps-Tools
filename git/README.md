@@ -156,9 +156,9 @@ git branch -D <branch name >
 ```
 **Local Repo                             |                 Remote Repo**
 ```
-git pull < put url copy past>                = automatically merge changes
+git pull < put url copy past>                             = automatically merge changes
 
-git fetch               = changes don't show
+git fetch                                                  = changes don't show
 ```
 **Remotly Add**
 ```
@@ -205,7 +205,7 @@ git diff 'main' 'test'
 
 --------------------------------------------------------***********************************************************------------------------------------------------------------------------------
 
-#Abhi Sir:
+# Notes:
 
 
 **Configure Your Email and Name in GitBash with Commands**
