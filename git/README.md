@@ -155,13 +155,13 @@ git branch -D <branch name >
 ```
 ```
 **Local Repo                             |                 Remote Repo**
-```
+
 git pull < put url copy past>                             = automatically merge changes
 
 git fetch                                                  = changes don't show
 ```
 **Remotly Add**
-```
+
 git remote add <b .name> url
 git remote -v
 ```
