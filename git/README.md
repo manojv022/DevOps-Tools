@@ -95,12 +95,16 @@ git init
 **Make Your First Commit: Add files to the staging area and commit your changes.**
 ```
 git add .
+```
 git commit -m "Initial commit"
+```
 ```
 **To Show commit histroy**
 ```
 git log
+```
 git log --oneline
+```
 ```
 
 **Show Creditals which is add**
@@ -124,7 +128,7 @@ git restore --staged <file name>
 ```
 git revert <commit id>
 ```
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Branches**
 
 
@@ -147,6 +151,7 @@ git checkout <branch name>
 ```
 git ckeckout -b <new branch name>
 ```
+```
 **Delete Branches**
 ```
 git branch -d <branch name>
@@ -159,6 +164,7 @@ git branch -D <branch name >
 git pull < put url copy past>                             = automatically merge changes
 
 git fetch                                                  = changes don't show
+```
 ```
 **Remotly Add**
 
@@ -202,7 +208,7 @@ git diff 'main' 'test'
 
 
 
---------------------------------------------------------***********************************************************------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Notes:
 
