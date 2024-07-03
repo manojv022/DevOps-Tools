@@ -42,3 +42,35 @@ Docker container is a runtime instance of an image. Allows developers to package
 ![image](https://github.com/manojv022/DevOps-Tools/assets/167419795/89570f5c-0b92-4e06-8ec1-7d7df80326bb)
 
 
+
+
+
+
+
+**Docker Architure**
+
+
+
+Certainly! Docker operates on a **client-server architecture**. Here are the key components:
+
+1. **Docker Daemon**: The Docker daemon manages services by communicating with other daemons. It handles Docker objects like images, containers, networks, and volumes through API requests¹³.
+
+2. **Docker Client**: The client interacts with Docker. When you run Docker commands, the terminal sends instructions to the daemon. The client's main purpose is to pull images from the registry and run them on the Docker host¹.
+
+3. **Docker Host**: Responsible for running multiple containers, the Docker host includes the daemon, images, containers, networks, and storage¹.
+
+4. **Docker Registry**: All Docker images are stored here. The public registry (Docker Hub) is accessible to everyone, but you can also set up a private registry. Use `docker pull` to fetch images and `docker push` to upload them to your registry¹.
+
+5. **Docker Images**: Images are read-only templates that contain instructions for creating containers. They enable collaboration between developers and are essential for sharing applications¹.
+
+6. **Docker Containers**: Containers are created from images and represent running applications. You can start, stop, delete, or move containers using the Docker API or CLI¹.
+
+7. **Docker Storage**: Containers have a writable layer, but for persistent data, you need a storage driver. Data volumes can be mounted directly into the container's filesystem¹.
+
+Remember, Docker simplifies application deployment by packaging everything needed into containers, making it easier to manage and distribute software! 🐳🚀
+
+Source: Conversation with Copilot, 3/7/2024
+(1) Architecture of Docker - GeeksforGeeks. https://www.geeksforgeeks.org/architecture-of-docker/.
+(2) Demystifying Docker Architecture: A Comprehensive Guide. https://www.redswitches.com/blog/docker-architecture-comprehensive-guide/.
+(3) Docker overview | Docker Docs. https://docs.docker.com/guides/docker-overview/.
+(4) Docker Architecture Overview - Structure & Components. https://spacelift.io/blog/docker-architecture
