@@ -186,14 +186,13 @@ git stash apply
 git stash apply stash@{2}
 ```
 **To pick specitc file / for test branch to main branch**
-```
 process -->
 1. git log
 2. git checkout <b. name>
 ```
 git cherry-pick <commit id>
 ```
-```
+
 **to show difference between two branches**
 ```
 git diff 'main' 'test'
