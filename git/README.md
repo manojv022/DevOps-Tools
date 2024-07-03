@@ -139,6 +139,7 @@ git branch -a
 ```
 git branch
 ```
+```
 **Make  New Branch**
 ```
 git branch <branch name - feature, test ...>
