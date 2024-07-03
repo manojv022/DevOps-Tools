@@ -1,4 +1,6 @@
 
+# $${\color{blue}Git}$$
+  
 Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It was created by Linus Torvalds in 2005 for the development of the Linux kernel. In this article, we will discuss about Git, its features, advantages, and disadvantages.
 
 **Environments** =[ Development --> Test /CPA  --> UAT --> Production ]
