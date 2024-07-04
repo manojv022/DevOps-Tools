@@ -133,6 +133,24 @@ Docker packages, provisions and runs containers. Container technology is availab
 #  $${\color{lightlightblue} \textbf{Docker 🐳}}$$
 
 
+**Docker Exit Codes**
+
+
+| CODE #   | NAME                                | WHAT IT MEANS                                                                              |
+|----------|-------------------------------------|---------------------------------------------------------------------------------------------|
+| 0        | Purposely stopped                   | Used by developers to indicate that the container was automatically stopped                 |
+| 1        | Application error                   | Container was stopped due to application error or incorrect reference in the image spec     |
+| 125      | Container failed to run error       | The docker run command did not execute successfully                                         |
+| 126      | Command invoke error                | A command specified in the image specification could not be invoked                          |
+| 127      | File or directory not found         | File or directory specified in the image specification was not found                         |
+| 128      | Invalid argument used on exit       | Exit was triggered with an invalid exit code (valid codes are integers between 0-255)       |
+| 134      | Abnormal termination (SIGABRT)     | The container aborted itself using the abort() function.                                     |
+| 137      | Immediate termination (SIGKILL)     | Container was immediately terminated by the operating system via SIGKILL signal               |
+| 139      | Segmentation fault (SIGSEGV)        | Container attempted to access memory that was not assigned to it and was terminated           |
+| 143      | Graceful termination (SIGTERM)      | Container received warning that it was about to be terminated, then terminated                |
+| 255      | Exit Status Out Of Range            | Container exited, returning an exit code outside the acceptable range, meaning the cause of the error is not known |
+
+
 ##  ${\color{lightblue} \textbf{ Monolithic \ vs \ Microservises}}$
 
 | **Aspect**                  | **Monolithic Architecture**                             | **Microservices Architecture**                          |
