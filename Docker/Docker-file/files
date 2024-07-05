@@ -37,4 +37,4 @@ docker bulid -t ubuntu:20.04
 ```
 ```
 docker run -itd -p 80:80 nginx
-``` 
+```
