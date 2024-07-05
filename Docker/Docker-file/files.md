@@ -38,3 +38,22 @@ docker bulid -t ubuntu:20.04
 ```
 docker run -itd -p 80:80 nginx
 ```
+
+**commands for image push & pull**
+
+login command
+```
+docker login
+```
+give a tag
+```
+docker tag <current image name > <dockerhub username/new name>
+```
+push image to docker hub
+```
+docker push <dockerhub username/new name>
+```
+pull image from docker hub
+```
+docker pull <dockerhub username/ image name>
+```
