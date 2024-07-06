@@ -38,6 +38,8 @@ It is a file, comprised of multiple layers, used to execute code in a Docker con
 
 Docker container is a runtime instance of an image. Allows developers to package applications with all parts needed such as libraries and other dependencies. Docker Containers are runtime instances of Docker images. Containers contain the whole kit required for an application, so the application can be run in an isolated way. For eg.- Suppose there is an image of Ubuntu OS with NGINX SERVER when this image is run with the docker run command, then a container will be created and NGINX SERVER will be running on Ubuntu OS.
 
+--> Docker Containor work in a layer system.
+
 
 ![image](https://github.com/manojv022/DevOps-Tools/assets/167419795/89570f5c-0b92-4e06-8ec1-7d7df80326bb)
 
