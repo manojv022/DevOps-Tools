@@ -30,3 +30,7 @@ The following are the benefits of Dockefile:
 **2. Version Control:** Dockerfiles can be used for versioning along with your source code, It helps in tracking the changes and rollbacks.
 
 **3. Automation:** It provides the automation with the process of building, configuring, and deploying the applciations with reduicng the manual intervention and errors.
+
+
+
+![image](https://github.com/manojv022/DevOps-Tools/assets/167419795/3f81ac98-2e42-44a0-9f7d-0160db46db64)
