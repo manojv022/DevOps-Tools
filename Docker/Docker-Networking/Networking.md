@@ -62,7 +62,7 @@ docker top containerid  - docker container id top process viewer
 #docker rm -f $(docker ps -a -q)  - will delete all container at once
 docker run  = pull  + create + save
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 **Docker Network**
@@ -80,14 +80,18 @@ address to container
 **IPvlan** - we use this network to provide ipv4 and ipv6 addresss of our choice or
 assign customize ip to container,i.e take control over ipv4 or ipv6 assigning.
 
+------------------------------------------------------------------------------------------------------------------------------------------------
 **Dockernetwork commands**
+
 docker network create --subnet "192.168.0.0/16" --driver bridge newnetwork 
 docker network ls 
 docker run -d -P --network newnetwork nginx
 docker run -d -p --network host httpd
 docker run -d -p --network <network_driver_type> image name
------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
 **Docker Volume**
+
 docker volume ls
 docker volume create newvol1
 docker run -d -p -v newvol1:/usr/local/apache2/htdocs/  httpd
@@ -95,7 +99,8 @@ docker run -d -p -v newvol1:/usr/share/nginx/html/  nginx
 root dir location - /var/lib/docker/volumes
 mkdir /mnt/voldir
 docker -d -p -v /mnt/voldir:/usr/local/tomcat/ tomcat
------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
 **Docker Compose**
 
 basic command to run docker Compose
@@ -107,8 +112,9 @@ docker compose down .
 docker compose prune  
 
 
--------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 **Docker registory**
+
 
 docker login
 docker tag imagename dockerhubusername/repositoryname:tag   #image name and repo name should be same
