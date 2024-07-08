@@ -164,6 +164,9 @@ docker compose prune
 
 
 docker login
+
 docker tag imagename dockerhubusername/repositoryname:tag   #image name and repo name should be same
+
 docker run username/nameofrepo:tag
+
 docker image push anupdudhe/dockercomposenginx-frontendnginxfirst:latest
