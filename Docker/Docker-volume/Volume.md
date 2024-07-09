@@ -1,4 +1,29 @@
 #Notes:
+**This command lists all volumes that exist on the Docker host.**
+```
+docker volume ls
+```
+**docker volume create
+This command creates a new volume. You specify the name of the volume as an argument.**
+```
+docker volume create <my_volume>
+```
+**Docker Volume Inspect
+This command provides detailed information about a specific volume, including its configuration and usage.**
+```
+docker volume inspect <my_volume>
+```
+**Docker Volume rm
+This command removes one or more volumes. You specify the names of the volumes to remove as arguments.**
+```
+docker volume rm <my_volume>
+```
+**Docker Volume Prune
+This command removes all unused volumes from the host.**
+```
+docker volume prune
+```
+
 
 
 **docker volume**
