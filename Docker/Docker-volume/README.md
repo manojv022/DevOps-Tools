@@ -15,3 +15,12 @@ There are three main use cases for Docker Volumes as follows:
 
 2. To share data between the host filesystem and the Docker container
 3. To share data with other Docker containers
+
+
+**Docker volumes are used to persist data from within a Docker container**
+
+1. Named volume
+   
+2. Hosts or bind volume
+   
+3. Anonymous volume
