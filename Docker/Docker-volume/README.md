@@ -5,3 +5,13 @@ Volumes: Docker manages volumes kept in a section of the host filesystem (/var/l
 Docker volume is a way to manage the state of the containerized application which other docker containers can reuse they can be reusable with other containers. Data of the application will persist even if the container associated with that volume is stopped or even removed.
 
 Docker volume will mainly used for applications that maintain stateful data share data between containers, or ensure data durability.
+
+
+**Docker Volumes**
+
+There are three main use cases for Docker Volumes as follows:
+
+1. To keep data around when a container is removed
+
+2. To share data between the host filesystem and the Docker container
+3. To share data with other Docker containers
