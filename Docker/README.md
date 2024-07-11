@@ -51,7 +51,7 @@ Docker container is a runtime instance of an image. Allows developers to package
 
 
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 **Docker Architure**
@@ -95,6 +95,7 @@ Docker is a platform and set of tools designed to make it easier to create, depl
 
 
 **Key components of Docker include:**
+
 **1. Docker Engine:** The core software responsible for building and running containers. It includes a daemon process, REST API, and a command-line interface (CLI) that allows users to interact with Docker.
 
 **2. Docker Image:** A lightweight, standalone, and executable package that includes everything needed to run a piece of software, including the code, runtime, libraries, and system tools.
@@ -106,6 +107,8 @@ Docker is a platform and set of tools designed to make it easier to create, depl
 **5. Docker Hub:** A cloud-based registry service provided by Docker, where users can find and share Docker images. It allows for easy distribution of pre-built images.
 
 Docker simplifies the deployment process by eliminating the "it works on my machine" problem, as containers ensure consistency across development, testing, and production environments. It has gained widespread popularity in the software development and IT communities due to its flexibility, efficiency, and ease of use
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Why docker is used ?**
 There are several reasons why Docker has gained popularity or Why docker is used:
@@ -121,7 +124,10 @@ There are several reasons why Docker has gained popularity or Why docker is used
 **5. Isolation:** Docker provides a level of isolation between containers, ensuring that applications running in different containers do not interfere with each other. This enhances security and makes it easier to manage dependencies and versioning.
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **How Does Docker Work?**
+
 At the core of Docker is the Docker engine, which is responsible for building and running containers. The Docker engine uses a client-server architecture, where the Docker client communicates with the Docker daemon (server) to perform various operations.
 
 Docker images serve as the building blocks for containers. An image is a read-only template that contains the application's code, runtime environment, system tools, and libraries. Images are created from a set of instructions called Dockerfiles, which define the steps to build the image.
