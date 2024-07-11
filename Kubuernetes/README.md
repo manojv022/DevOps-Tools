@@ -131,6 +131,10 @@ This provides users with flexibility and avoids vendor lock-in, allowing them to
 
 ![image](https://github.com/manojv022/DevOps-Tools/assets/167419795/13fc4d10-ab64-44ce-9285-bc729e6bb568)
 
+
+![image](https://github.com/manojv022/DevOps-Tools/assets/167419795/c4a7a431-5a37-40a8-8e2d-9014c7535089)
+
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Kubernetes Cluster:**
