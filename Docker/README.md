@@ -1,5 +1,10 @@
-# $${\color{blue} Docker🐳}$$
-                                                                   
+# $${\color{blue} Docker}$$
+----------------------------------------------------------------------------------------------------------------
+
+![image](https://github.com/manojv022/DevOps-Tools/assets/167419795/1e585019-7aec-434e-9bba-76f6f0f211c7)
+
+
+-------------------------------------------------------------------------------------------------------------------                                                                   
 **What is Docker?**
 
 Docker is an open-source containerization platform by which you can pack your application and all its dependencies into a standardized unit called a container. Containers are light in weight which makes them portable and they are isolated from the underlying infrastructure and from each other container. You can run the docker image as a docker container in any machine where docker is installed without depending on the operating system.
