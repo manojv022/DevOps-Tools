@@ -11,7 +11,7 @@ spec:
   matchExpressions:
     - key: app
       operator: In
-      value:
+      values:
        - app-nginx
 
  template:
