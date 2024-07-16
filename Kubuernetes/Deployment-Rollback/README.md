@@ -1,5 +1,5 @@
 
-**Deployment in Kubernetes**
+# $${\color{blue} \ Deployment}$$
 
 A Deployment in Kubernetes is a powerful abstraction that manages the lifecycle of applications. It provides declarative updates for Pods and ReplicaSets, making it easier to manage the deployment and scaling of applications.
 
