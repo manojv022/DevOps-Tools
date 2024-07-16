@@ -90,6 +90,6 @@ Define resource requests and limits for your containers to ensure efficient reso
 **Implement Health Checks:**
 Use readiness and liveness probes to ensure your application is healthy and ready to serve traffic.
 
-**Conclusion**
+**Conclusion:**
 
 A Deployment in Kubernetes is a fundamental resource that simplifies the management of applications. It enables features like rolling updates, rollbacks, and scaling, making it an essential tool for modern cloud-native application development.
