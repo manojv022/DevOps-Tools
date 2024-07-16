@@ -171,10 +171,11 @@ git fetch                                                  = changes don't show
 
 
 **Remotly Add**
-
-git remote add <b .name> url
-git remote -v
 ```
+git remote add <b .name> url
+
+git remote -v
+
 ```
 **To show Commit Histroy** 
 ```
