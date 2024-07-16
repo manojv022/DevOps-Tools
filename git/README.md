@@ -102,9 +102,8 @@ git commit -m "Initial commit"
 **To Show commit histroy**
 ```
 git log
-```
+
 git log --oneline
-```
 ```
 
 **Show Creditals which is add**
@@ -128,6 +127,7 @@ git restore --staged <file name>
 ```
 git revert <commit id>
 ```
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Branches**
 
@@ -136,9 +136,9 @@ git revert <commit id>
 **To show Which Branch we present**
 ```
 git branch -a
-```
+
 git branch
-```
+
 ```
 **Make  New Branch**
 ```
@@ -152,7 +152,7 @@ git checkout <branch name>
 ```
 git ckeckout -b <new branch name>
 ```
-```
+
 **Delete Branches**
 ```
 git branch -d <branch name>
@@ -162,12 +162,12 @@ git branch -D <branch name >
 ```
 **Local Repo                             |                 Remote Repo**
 
-git pull < put url copy past>                             = automatically merge changes
+git pull < put url copy past>                          = automatically merge changes
 
 git fetch                                                  = changes don't show
 ```
 
-
+```
 
 
 **Remotly Add**
@@ -183,9 +183,9 @@ git rebase main
 **To save Current work in a branch**
 ```
 git stash
-```
+
 git stash list
-```
+
 ```
 **To continue the stop process which has been stop in stash**
 ```
