@@ -156,9 +156,9 @@ git ckeckout -b <new branch name>
 **Delete Branches**
 ```
 git branch -d <branch name>
-```
+
 git branch -D <branch name >
-```
+
 ```
 **Local Repo                             |                 Remote Repo**
 
