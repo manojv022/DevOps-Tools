@@ -95,9 +95,9 @@ git init
 **Make Your First Commit: Add files to the staging area and commit your changes.**
 ```
 git add .
-```
+
 git commit -m "Initial commit"
-```
+
 ```
 **To Show commit histroy**
 ```
