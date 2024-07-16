@@ -36,6 +36,7 @@ Ensures that a specified number of Pod replicas are running at any given time. D
 **Container:**
 A lightweight, stand-alone, executable package that includes everything needed to run a piece of software.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Create a Deployment: define a Deployment in a YAML file**
 ```
