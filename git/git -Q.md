@@ -7,4 +7,4 @@
 6. Difference between git revert and git reset?
 7. Branching strategy?
 8. Merge vs rebase?
-Please like and follow my page for more such helpful materials to help you face your interviews
+   
