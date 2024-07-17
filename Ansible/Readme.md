@@ -1,4 +1,4 @@
-**Ansible Hands On**
+**Ansible**
 
 
 **go on aws console and launch 3 ec2 instance 3 ... as we need , 1st ansible-master 2nd ,3rd ansible-nodes .......   all instance connect via SSH ( public ip and , ec2-user)**
