@@ -94,3 +94,14 @@ Use readiness and liveness probes to ensure your application is healthy and read
 **Conclusion:**
 
 A Deployment in Kubernetes is a fundamental resource that simplifies the management of applications. It enables features like rolling updates, rollbacks, and scaling, making it an essential tool for modern cloud-native application development.
+
+
+
+ Note: 
+ **features of deployment:**
+ 
+Automated Rollouts and Rollbacks:
+
+-**Rollouts:** Kubernetes can automatically deploy changes to your application or its configuration.
+
+- **Rollbacks:** If something goes wrong, Kubernetes can revert to a previous version of the application.
