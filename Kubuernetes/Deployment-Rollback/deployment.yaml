@@ -51,3 +51,11 @@ spec:
 # kubectl get rs
 # kubectl get pod
 # kubectl describe deployment <deployment name>
+
+
+
+ Note: 
+ **features of deployment:**
+Automated Rollouts and Rollbacks
+- Rollouts: Kubernetes can automatically deploy changes to your application or its configuration.
+- Rollbacks: If something goes wrong, Kubernetes can revert to a previous version of the application.
