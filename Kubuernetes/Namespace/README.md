@@ -1,4 +1,7 @@
 
+# $${\color{blue} Namespace:}$$   
+
+
 Namespaces in Kubernetes (K8s) are a way to organize and manage resources within a cluster. They provide a mechanism for isolating groups of resources, which can be particularly useful in multi-tenant environments or when managing different environments (like development, staging, and production) within the same cluster.
 
 ### Key Points about Namespaces:
