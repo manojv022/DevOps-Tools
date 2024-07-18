@@ -1,5 +1,5 @@
 
-# $${\color{blue}Replication \ Controller}$$
+# $${\color{blue}Replication \ Controller:}$$
 In Kubernetes, a **Replication Controller** (RC) is a resource that ensures a specified number of pod replicas are running at any given time. If more or fewer pods are running, the RC takes action to reach the desired state. This ensures high availability and reliability for applications.
 
 Here’s a more detailed explanation of its components and functionality:
