@@ -70,25 +70,25 @@ With the rise of containerization, managing individual containers manually becom
 
 Kubernetes provides automated container orchestration, enabling efficient deployment, scaling, and management of containerized applications across clusters of machines.
 
-**Scalability:**
+- **Scalability:**
 
 Kubernetes simplifies scaling applications by allowing them to scale horizontally (adding more instances) or vertically (increasing resources per instance) based on demand..
 
 This ensures that applications can handle varying levels of traffic without manual intervention.
 
-**High Availability:**
+- **High Availability:**
 
 Kubernetes ensures high availability of applications by automatically monitoring the health of containers and nodes.
 
 It can detect and replace failed containers or nodes, ensuring that applications remain available and responsive to user requests.
 
-**Resource Efficiency:**
+- **Resource Efficiency:**
 
 Kubernetes optimizes resource utilization by efficiently packing containers onto nodes based on their resource requirements and constraints.
 
 This helps in maximizing the utilization of underlying infrastructure, reducing costs, and improving performance.
 
-**Self-healing:**
+- **Self-healing:**
 
 Kubernetes automatically detects and responds to failures within the cluster.
 
@@ -106,19 +106,19 @@ Kubernetes uses a declarative approach to configuration, allowing users to defin
 
 This simplifies deployment and management tasks, as Kubernetes automatically reconciles the current state with the desired state, ensuring consistency and reliability.
 
-**Extensibility:**
+- **Extensibility:**
 
 Kubernetes has a modular architecture and a rich ecosystem of plugins and extensions, allowing users to customize and extend its functionality to suit their specific requirements.
 
 This flexibility enables Kubernetes to adapt to a wide range of use cases and environments.
 
-**Community Support:**
+- **Community Support:**
 
 Kubernetes has a large and active community of developers and contributors, who provide ongoing support, documentation, and best practices.
 
 This ensures that Kubernetes remains up-to-date, secure, and reliable, and fosters innovation and collaboration within the community.
 
-**Vendor Neutrality:**
+- **Vendor Neutrality:**
 
 Kubernetes is open-source and vendor-neutral, which means it can run on any cloud platform, on-premises, or in hybrid environments.
 
@@ -148,7 +148,7 @@ In architecture, a Kubernetes cluster refers to a collection of nodes (machines)
 
 A Kubernetes cluster is a distributed system designed to manage containerized applications efficiently, providing features like automatic scaling, self-healing, and rolling updates while abstracting away the complexities of underlying infrastructure management.
 
-**kubectl:**
+- **kubectl:**
 
 Kubernetes provides kubectl to use the Kubernetes API and Kubernetes clusterscontrol surfaceCommand line tool for communication.
 
@@ -158,7 +158,7 @@ It allows users to manage and control Kubernetes resources, such as pods, servic
 
 It simplifies the management and operation of Kubernetes environments, providing users with a unified interface for interacting with Kubernetes clusters and controlling their resources.
 
-**Control Plane/Master:**
+- **Control Plane/Master:**
 
 The master node is responsible for managing the Kubernetes cluster.
 
@@ -169,7 +169,7 @@ The master node in Kubernetes serves as the brain of the cluster, coordinating a
 It provides the API server for external interactions, stores cluster state data in etcd, schedules workloads onto worker nodes, and manages various controllers to ensure the cluster's desired state is maintained.
 
 
-**API Server:**
+- **API Server:**
 
 The API server serves as the primary control plane component for Kubernetes.
 
@@ -183,7 +183,7 @@ The Kubernetes API server validates and configures data for API objects, includi
 
 It serves as the entry point for all administrative tasks, enforces security policies, validates requests, and facilitates real-time communication and event-driven workflows within the cluster.
 
-**Scheduler:**
+- **Scheduler:**
 
 The scheduler uses the Kubernetes monitoring (Watch) mechanism to discover newly created Pods in the cluster that have not yet been scheduled to nodes.
 
@@ -193,6 +193,7 @@ The scheduler aims to optimize resource utilization and maintain a balanced work
 
 The scheduler first finds all the schedulable nodes of a Pod in the cluster, then scores these schedulable nodes according to a series of functions, and selects the node with the highest score to run the Pod.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Control Manager:**
 
@@ -203,7 +204,7 @@ Controllers include components such as the Replication Controller, ReplicaSet Co
 Each controller continuously monitors the cluster state and takes corrective actions to reconcile the current state with the desired state defined in the Kubernetes API server.
 
 
-**ETCD:**
+- **ETCD:**
 
 etcd is a consistent and highly available key-value store used as the backend database for all Kubernetes cluster data.
 
@@ -211,7 +212,7 @@ It ensures consistency, durability, and high availability, enabling Kubernetes t
 
 The master node typically hosts an instance of etcd, which serves as the cluster's source of truth.
 
-**Worker Node:**
+- **Worker Node:**
 
 A worker node, also known as a minion node, is a component of a Kubernetes cluster responsible for running application workloads in the form of containers.
 
@@ -222,7 +223,7 @@ The worker node(s) host the Pods that are the components of the application work
 The worker node provides an execution environment for running pods, which encapsulate one or more containers sharing the same network namespace, storage, and lifecycle.
 
 
-**Pod:**
+- **Pod:**
 
 In Kubernetes, a pod is the smallest and simplest unit of deployment.
 
@@ -235,7 +236,7 @@ Pod provides a higher level of abstraction that allows you to manage multiple co
 Pods communicate with each other using the IP address.
 
 
-**Docker Engine:**
+- **Docker Engine:**
 
 In Kubernetes architecture, Docker Engine is not a component per se, but rather a container runtime that Kubernetes can integrate with to manage containers.
 
@@ -246,7 +247,7 @@ Docker Engine is one of several container runtimes that Kubernetes can integrate
 While Docker Engine has been commonly used in Kubernetes deployments, the platform supports other container runtimes as well, providing users with flexibility and choice in their containerization strategy.
 
 
-**kubelet:**
+- **kubelet:**
 
 The kubelet is the primary "node agent" that runs on each node.
 
@@ -257,7 +258,7 @@ It performs liveness and readiness probes specified in pod configurations to det
 It interacts with the container runtime, enforces resource constraints, monitors pod health, reports node status, and performs other tasks to ensure the reliable and efficient operation of the node within the cluster.
 
 
-**kubeproxy:**
+- **kubeproxy:**
 
 In Kubernetes, kube-proxy is a network proxy that runs on each worker node in the cluster.
 
