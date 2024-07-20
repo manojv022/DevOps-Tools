@@ -40,25 +40,25 @@ Kubernetes addresses several key challenges in modern software development and d
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Here's why we need Kubernetes:
 
-**Container Orchestration**
+- **Container Orchestration**
 
-**Scalability**
+- **Scalability**
 
-**High Availability**
+- **High Availability**
 
-**Resource Efficiency**
+- **Resource Efficiency**
 
-**Self-healing**
+- **Self-healing**
 
-**Service Discovery and Load Balancing**
+- **Service Discovery and Load Balancing**
 
-**Declarative Configuration**
+- **Declarative Configuration**
 
-**Extensibility**
+- **Extensibility**
 
-**Community Support**
+- **Community Support**
 
-**Vendor Neutrality**
+- **Vendor Neutrality**
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
