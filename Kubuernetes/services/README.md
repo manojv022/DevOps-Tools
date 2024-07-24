@@ -1,3 +1,6 @@
+# $${\color{blue} Services\ ClusterIP}$$
+
+
 In Kubernetes (often abbreviated as k8s), a **Service** is an abstraction that defines a logical set of Pods and a policy by which to access them. Services enable decoupling of the way workloads (Pods) are defined from the way they are accessed and consumed.
 
 ### Key Points about Kubernetes Services:
