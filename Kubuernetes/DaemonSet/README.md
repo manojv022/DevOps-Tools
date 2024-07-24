@@ -1,5 +1,9 @@
 
 
+![image](https://github.com/user-attachments/assets/8608fec4-0901-4451-8d69-d5dd57599c27)
+
+
+
 
 
 In Kubernetes, a DaemonSet is a resource type that ensures a specified pod runs on all (or a subset of) nodes within a cluster. The primary purpose of a DaemonSet is to schedule one instance of a pod on each node in the cluster, ensuring that certain system-level services, monitoring agents, or logging daemons are running on every node.
