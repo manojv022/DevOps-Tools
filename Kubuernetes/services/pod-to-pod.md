@@ -1,5 +1,6 @@
-# establish communocation between to pods inside one Node:
+ **establish communocation between to pods inside one Node:**
 - vim pod1.yaml
+  # pod1
 ```
 
 kind: Pod1
