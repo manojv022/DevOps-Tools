@@ -1,6 +1,27 @@
 
   # $${\color{blue} \textbf{DevOps Tools}}$$
 
+
+- DevOps is a methodology in the software development and IT industry. 
+
+- Used as a set of practices and tools, DevOps integrates and automates the work of software development (Dev) and IT operations (Ops) as a means for improving and shortening the systems development life cycle.
+
+- DevOps is complementary to agile software development; several DevOps aspects came from the agile way of working.
+
+
+- **key aspects of DevOps:**
+ 1. Collaboration and Communication
+ 2. Automation
+ 3. Continuous Integration (CI)
+ 4. Continuous Delivery (CD)
+ 5. Infrastructure as Code (IaC)
+ 6. Monitoring and Logging
+ 7. Cultural Shift
+ 8. Tools and Technologies
+    
+
+ ![1675179183927](https://github.com/user-attachments/assets/b95f1ad8-df76-472b-aec5-2e54488cdaeb)
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # $${\color{red} \textbf{git}}$$
