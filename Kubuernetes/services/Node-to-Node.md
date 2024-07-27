@@ -37,6 +37,7 @@ spec:
   
 
 **create service.yaml file**
+- vim service.yaml
 ```
 kind: Service                             # Defines to create Service type Object
 apiVersion: v1
