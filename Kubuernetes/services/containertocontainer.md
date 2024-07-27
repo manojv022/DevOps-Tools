@@ -19,13 +19,13 @@ spec:
        - containerPort: 80
 ```
 
- kubectl apply -f <filename>
- kubetl get pods
- kubectl exec testpod -it -c <cname> -- /bin/bash
+- kubectl apply -f <filename>
+- kubetl get pods
+- kubectl exec testpod -it -c <cname> -- /bin/bash
 
 # Download curl:
 
- apt-get update
+- apt-get update
 apt-get install curl
 
 # curl localhost:80
