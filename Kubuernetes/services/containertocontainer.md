@@ -1,6 +1,7 @@
 # container to container:
-inside one pod->
+- inside one pod
 
+vim container.yaml
 ```
 
 kind: Pod
