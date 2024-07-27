@@ -29,7 +29,7 @@ spec:
 
 ```
 
-**commands**
+**commands:**
 - kubectl apply -f <filename>
 - kubectl get pods -o wide
 - curl <ip : 80 >
