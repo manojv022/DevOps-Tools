@@ -2,7 +2,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Git**
+# $${\color{red} \textbf{git}}$$
 
 Git is a distributed version control system (DVCS) that allows developers to track changes in their codebase, collaborate with others, and manage different versions of their projects efficiently.
 
@@ -10,7 +10,7 @@ Git is a distributed version control system (DVCS) that allows developers to tra
 
 
 
-**Terraform**
+# $${\color{green} \textbf{Terraform}}$$
 
 Terraform is an infrastructure as code (IaC) tool created by HashiCorp. It allows you to build, modify, and version cloud and on-premises resources in a safe and efficient manner.
 
