@@ -1,3 +1,9 @@
+**Use Servics types:**
+establish communication between 2 different pods inside different Nodes with the help of virtual static ip
+
+- cluster ip: 
+- vim deployment.yaml
+
 ```
 kind: Deployment
 apiVersion: apps/v1
@@ -19,3 +25,32 @@ spec:
           image: httpd
           ports:
           - containerPort: 80
+
+
+```
+
+
+- kubectl apply -f <filename>
+- kubectl get pods -o wide
+- curl <ip : 80 >
+
+  
+``` 
+```
+**create service.yaml file**
+```
+kind: Service                             # Defines to create Service type Object
+apiVersion: v1
+metadata:
+  name: demoservice
+spec:
+  ports:
+    - port: 80                               # Containers port exposed
+      targetPort: 80                     # Pods port
+  selector:
+    name: deployment                    # Apply this service to any pods which has the specific label
+  type: ClusterIP                       # Specifies the service type i.e ClusterIP or NodePort
+
+  
+```
+- kubectl get svc
