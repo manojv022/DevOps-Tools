@@ -55,3 +55,6 @@ spec:
 ```
 - kubectl get svc
 - curl <ip : 80>
+
+![image](https://github.com/user-attachments/assets/afe709a9-7741-4791-a4ba-9c89fc2020a6)
+
