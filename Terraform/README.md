@@ -1,3 +1,6 @@
+
+# $${\color{green} \textbf{Terraform}}$$
+
 Terraform is an open-source infrastructure-as-code (IaC) tool created by HashiCorp. It allows you to define and provision infrastructure using a high-level configuration language. Here's a more detailed breakdown of how it works and why it's useful:
 
 ### Key Concepts
