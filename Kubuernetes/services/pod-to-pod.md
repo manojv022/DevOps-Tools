@@ -11,8 +11,8 @@ spec:
       image: nginx
       ports: 
        - containerPort: 80
-
-
+```
+# Pod2
 ```
 
 kind: Pod
@@ -25,3 +25,4 @@ spec:
       image: httpd
       ports: 
        - containerPort: 80
+       
