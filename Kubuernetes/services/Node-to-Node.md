@@ -29,14 +29,13 @@ spec:
 
 ```
 
-
+**commands**
 - kubectl apply -f <filename>
 - kubectl get pods -o wide
 - curl <ip : 80 >
 
   
-``` 
-```
+
 **create service.yaml file**
 ```
 kind: Service                             # Defines to create Service type Object
@@ -54,3 +53,4 @@ spec:
   
 ```
 - kubectl get svc
+- curl <ip : 80>
