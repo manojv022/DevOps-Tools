@@ -34,7 +34,7 @@ spec:
        - containerPort: 80
        
 ```
-- curl <ip of pod1:80>
+- curl <ip of pod1 : 80 >
 
 ![image](https://github.com/user-attachments/assets/6e1e2b83-5388-474b-b8ee-981b4442beba)
 
