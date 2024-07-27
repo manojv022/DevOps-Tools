@@ -1,4 +1,4 @@
-# $${\color{blue} Docker}$$
+# $${\color{blue} \textbf{ Docker}}$$
 ----------------------------------------------------------------------------------------------------------------
 
 ![image](https://github.com/manojv022/DevOps-Tools/assets/167419795/1e585019-7aec-434e-9bba-76f6f0f211c7)
