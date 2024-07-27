@@ -26,3 +26,9 @@ spec:
       ports: 
        - containerPort: 80
        
+```
+
+![image](https://github.com/user-attachments/assets/6e1e2b83-5388-474b-b8ee-981b4442beba)
+
+![image](https://github.com/user-attachments/assets/ec6a8481-16cd-4366-a8ff-dbd479f9932a)
+
