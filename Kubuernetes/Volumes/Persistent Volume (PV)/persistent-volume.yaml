@@ -11,5 +11,5 @@ spec:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Recycle
   awsElasticBlockStore:
-    volumeID:           # YAHAN APNI EBS VOLUME ID DAALO
+    volumeID:           # put here volume id
     fsType: ext4
