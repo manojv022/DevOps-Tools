@@ -57,7 +57,41 @@ For production environments, it is generally recommended to use a LoadBalancer S
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+```
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+   name: mydeployments
+spec:
+   replicas: 1
+   selector:      # tells the controller which pods to watch/belong to
+    matchLabels:
+     name: deployment
+   template:
+     metadata:
+       name: testpod1
+       labels:
+         name: deployment
+     spec:
+      containers:
+        - name: c00
+          image: httpd
+          ports:
+          - containerPort: 80
 
+```
+```
+kind: Service                             # Defines to create Service type Object
+apiVersion: v1
+metadata:
+  name: demoservice
+spec:
+  ports:
+    - port: 80                               # Containers port exposed
+      targetPort: 80                     # Pods port
+  selector:
+    name: deployment                    # Apply this service to any pods which has the specific label
+  type: NodePort                       # Specifies the service type i.e  NodePort
 
 
 ```
@@ -65,6 +99,8 @@ For production environments, it is generally recommended to use a LoadBalancer S
 
 
 
-
 ![image](https://github.com/user-attachments/assets/6b66a724-dd5a-47a4-acda-f08fe9776522)
+
+
+![image](https://github.com/user-attachments/assets/72c488c9-508e-49db-b808-881887a7d4a0)
 
