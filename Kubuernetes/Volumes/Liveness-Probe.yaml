@@ -19,4 +19,8 @@ spec:
         - /tmp/healthy
       initialDelaySeconds: 5          
       periodSeconds: 5                                 
-      timeoutSeconds: 30      
+      timeoutSeconds: 30 
+
+
+      ```
+      -> echo $? : to check health, if its show 0 then its ok , or if its show another number (1, 134 ...) means something wrong.
