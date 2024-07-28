@@ -49,3 +49,22 @@ spec:
 - **Load Balancing**: NodePort does not provide load balancing across nodes by itself. You would typically need an external load balancer to distribute traffic evenly.
 
 For production environments, it is generally recommended to use a LoadBalancer Service (if supported by your cloud provider) or to set up Ingress controllers for better traffic management and security.
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+```
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/6b66a724-dd5a-47a4-acda-f08fe9776522)
+
