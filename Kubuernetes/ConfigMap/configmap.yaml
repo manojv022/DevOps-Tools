@@ -17,3 +17,26 @@ spec:
        items:
        - key: sample.conf
          path: sample.conf
+
+
+```
+
+
+#environment variables:
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myenvconfig
+spec:
+  containers:
+  - name: c1
+    image: centos
+    command: ["/bin/bash", "-c", "while true; do echo Technical-Guftgu; sleep 5 ; done"]
+    env:
+    - name: MYENV         # env name in which value of the key is stored
+      valueFrom:
+        configMapKeyRef:
+          name: mymap      # name of the config created
+          key: sample.conf  
