@@ -1,3 +1,6 @@
+
+# $${\color{blue} \textbf{Secret}}$$
+
 In Kubernetes, a Secret is a resource used to store sensitive data, such as passwords, OAuth tokens, SSH keys, or API keys. Unlike ConfigMaps, which are designed for non-sensitive configuration data, Secrets provide a way to manage sensitive information securely.
 
 Here’s a detailed overview of Kubernetes Secrets:
