@@ -1,3 +1,6 @@
+
+#file
+```
  apiVersion: v1
 kind: Pod
 metadata:
@@ -17,21 +20,26 @@ spec:
        items:
        - key: sample.conf
          path: sample.conf
+```
 
+create a file : vi sample.conf
 
-command: kubectl create configmap mymap --from-file=<filename>
+#command: kubectl create configmap mymap --from-file=<filename>
         kubectl describe configmap <congig name>
         kubectl get configmap
+        kubectl apply -f deployconfigmap.yaml
+
+       chmod 644 deployconfigmap.yml
 
 
-        ![image](https://github.com/user-attachments/assets/9c87c1c3-8db8-4804-a0f6-4fed0a1c95b1)
 
-`````````````````````````````````````````
+
+     
 
 
 #environment variables:
-
-
+```
+```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -47,3 +55,13 @@ spec:
         configMapKeyRef:
           name: mymap      # name of the config created
           key: sample.conf  
+
+
+
+
+        ![image](https://github.com/user-attachments/assets/9c87c1c3-8db8-4804-a0f6-4fed0a1c95b1)
+
+
+#as a volume we did configmap:
+
+      ![image](https://github.com/user-attachments/assets/28f28e89-5e99-4e93-b20d-6ef350f5bdb8)
