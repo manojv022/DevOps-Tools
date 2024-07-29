@@ -20,6 +20,12 @@ spec:
 
 
 command: kubectl create configmap mymap --from-file=<filename>
+        kubectl describe configmap <congig name>
+        kubectl get configmap
+
+
+        ![image](https://github.com/user-attachments/assets/9c87c1c3-8db8-4804-a0f6-4fed0a1c95b1)
+
 `````````````````````````````````````````
 
 
