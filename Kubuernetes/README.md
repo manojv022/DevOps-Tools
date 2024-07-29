@@ -21,7 +21,7 @@
 
 **`What Is Kubernetes ?`**
 
-  - Kubernetes is an open-source Container Management - tool that automates container deployment, container scaling, descaling, and container load balancing (also called a container orchestration tool).
+- Kubernetes is an open-source Container Management - tool that automates container deployment, container scaling, descaling, and container load balancing (also called a container orchestration tool).
 
 - It is written in Golang and has a vast community because it was first developed by Google and later donated to CNCF (Cloud Native Computing Foundation).
 
