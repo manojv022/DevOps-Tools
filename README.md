@@ -32,7 +32,7 @@ Git is a distributed version control system (DVCS) that allows developers to tra
 
 
 
-# $${\color{green} \textbf{Terraform}}$$
+# $${\color{gray} \textbf{Terraform}}$$
 
 Terraform is an infrastructure as code (IaC) tool created by HashiCorp. It allows you to build, modify, and version cloud and on-premises resources in a safe and efficient manner.
 
