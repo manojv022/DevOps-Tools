@@ -17,56 +17,56 @@ git trotoise < windows shell interface to git>
 
 **Features of Git**
 
-**1. Version Control System:**
+- **1. Version Control System:**
 
 Git keeps track of all the changes made to files in a project. This way, you can go back to previous versions if needed.
 
-**2. Repositories:**
+- **2. Repositories:**
 
 A Git repository (or repo) is where your project’s files and their history are stored. There are two main types:
 
-**3. Local Repository:** 
+- **3. Local Repository:** 
 
 This is stored on your computer.
 
-**Remote Repository:**
+- **Remote Repository:**
 
-This is stored on a server, like GitHub, so it can be accessed by multiple people.
+   - This is stored on a server, like GitHub, so it can be accessed by multiple people.
 
-**Commits:**
+- **Commits:**
 
-A commit is like a snapshot of your project at a specific point in time. It records changes made to the files.
+   - A commit is like a snapshot of your project at a specific point in time. It records changes made to the files.
 
-**Branches:**
+- **Branches:**
 
-Branches allow you to work on different parts of a project separately. For example, you can have a “main” branch for stable code and a “feature” branch for new features you’re developing.
+   - Branches allow you to work on different parts of a project separately. For example, you can have a “main” branch for stable code and a “feature” branch for new features you’re developing.
 
-**Merging:**
+- **Merging:**
 
-When you’re done working on a branch, you can merge it back into the main branch. This combines your changes with the rest of the project.
+   - When you’re done working on a branch, you can merge it back into the main branch. This combines your changes with the rest of the project.
 
-**Cloning:**
+- **Cloning:**
 
-Cloning is making a copy of a remote repository on your local machine so you can work on it.
+   - Cloning is making a copy of a remote repository on your local machine so you can work on it.
 
-**Reason to Choose Git**
-**0. Distributed System:**
+- **Reason to Choose Git**
+   - **0. Distributed System:**
 
 Every developer has a complete local copy of the project, allowing for offline work and increased resilience.
 
-**1. Performance:**
+   - **1. Performance:**
 
 Git is fast and efficient, handling large projects with ease.
 
-**2. Branching and Merging:** 
+   - **2. Branching and Merging:** 
 
 Git’s lightweight branching and easy merging facilitate parallel development and feature isolation.
 
-**3. Collaboration:**
+   - **3. Collaboration:**
 
 Tools like GitHub enhance team collaboration, code reviews, and project management.
 
-**4. Track Changes:**
+   - **4. Track Changes:**
 
 Git tracks changes and maintains a history, making it easy to revert to previous versions.
 
