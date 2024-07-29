@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: myvolsecret
+  name: myvolpod
 spec:
   containers:
   - name: c1
@@ -14,4 +14,13 @@ spec:
   volumes:
   - name: testsecret
     secret:
-       secretName: mysecret  
+      secretName: mysecret
+ 
+
+
+
+
+![image](https://github.com/user-attachments/assets/f9835666-936d-4aa0-bc85-d43003d293c8)
+
+
+![image](https://github.com/user-attachments/assets/cb25dae8-91b0-4ba2-bc59-13efd8fc4530)
