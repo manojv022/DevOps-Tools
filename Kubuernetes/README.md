@@ -94,13 +94,13 @@ Kubernetes automatically detects and responds to failures within the cluster.
 
 It can restart containers that fail, reschedule them to healthy nodes, and perform rolling updates with zero downtime, ensuring that applications remain resilient and available.
 
-**Service Discovery and Load Balancing:**
+- **`Service Discovery and Load Balancing:`**
 
 Kubernetes provides built-in mechanisms for service discovery and load balancing, making it easy to distribute traffic among multiple instances of an application.
 
 This simplifies the process of managing network traffic and ensures that applications are accessible and responsive.
 
-**Declarative Configuration:**
+- **`Declarative Configuration:`**
 
 Kubernetes uses a declarative approach to configuration, allowing users to define the desired state of their applications and infrastructure.
 
