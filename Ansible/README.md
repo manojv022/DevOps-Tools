@@ -19,15 +19,15 @@ Ansible playbooks can be written very easily they will be like plain english and
 
 **`Ansible Architecture`**
 
-**`Control node:`** Commands and Playbooks can run by invoking /usr/bin/ansible or /usr/bin/ansible-playbook, from any control node. You can use any computer that has Python installed on it as a control node. However, one can not use a computer with Windows OS as a control node. One can have multiple control nodes.
+- **`Control node:`** Commands and Playbooks can run by invoking /usr/bin/ansible or /usr/bin/ansible-playbook, from any control node. You can use any computer that has Python installed on it as a control node. However, one can not use a computer with Windows OS as a control node. One can have multiple control nodes.
 
-**`Managed nodes:`** Also sometimes called “hosts”, Managed nodes are the network devices (and/or servers) you manage with Ansible.
+- **`Managed nodes:`** Also sometimes called “hosts”, Managed nodes are the network devices (and/or servers) you manage with Ansible.
 
-**`Inventory:`** Also sometimes called “hostfile”, Inventory is the list of Managed nodes use to organize them. It is also used for creating and nesting groups for easier scaling.
+- **`Inventory:`** Also sometimes called “hostfile”, Inventory is the list of Managed nodes use to organize them. It is also used for creating and nesting groups for easier scaling.
 
-**`Modules:`** These are the units of code executed by Ansible. Each module can be used for a specific purpose. One can invoke a single module with a task, or invoke several different modules in a playbook.
+- **`Modules:`** These are the units of code executed by Ansible. Each module can be used for a specific purpose. One can invoke a single module with a task, or invoke several different modules in a playbook.
 
-**`Tasks:`** The units of action in Ansible. One can execute a single task once with an ad-hoc command.
+- **`Tasks:`** The units of action in Ansible. One can execute a single task once with an ad-hoc command.
 
 Ansible-architecture
 
@@ -42,7 +42,7 @@ Ansible-architecture
 
 **Key Concepts**
 
-**`Control Node (Master)`**
+- **`Control Node (Master)`**
 
 A computer with Ansible installed.
 Runs commands and playbooks.
@@ -50,29 +50,29 @@ Needs Python, but can't be a Windows computer.
 Can be a laptop, desktop, or server.
 You can have more than one control node.
 
-**`Managed Nodes(NNodes)`**
+- **`Managed Nodes(NNodes)`**
 
 The devices or servers Ansible manages. Also called "hosts".
 Ansible isn't installed on these devices.
 
-**`Inventory`**
+- **`Inventory`**
 
 A list of the devices (hosts) Ansible manages.
 Includes details like IP addresses.
 Organizes devices into groups for easy management.
 
-**`Modules`**
+- **`Modules`**
 
 Small pieces of code that do specific tasks.
 Used to perform actions like user management or network setup.
 Can be used alone or combined in playbooks.
 
-**`Tasks`**
+- **`Tasks`**
 
 Single actions that Ansible performs.
 Can be run once with a quick command.
 
-**`Playbooks`**
+- **`Playbooks`**
 
 Lists of tasks saved to run in order.
 Written in an easy-to-read format called YAML.
