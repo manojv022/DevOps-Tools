@@ -1,3 +1,6 @@
+
+# $${\color{blue} \textbf{ConfigMap}}$$
+
 In Kubernetes, a ConfigMap is a resource used to store configuration data in a key-value format. It allows you to decouple configuration artifacts from container images, enabling you to manage application settings independently from the application code.
 
 Here's a breakdown of what ConfigMaps are and how they work:
