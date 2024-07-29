@@ -260,13 +260,13 @@ It interacts with the container runtime, enforces resource constraints, monitors
 
 - **`kubeproxy:`**
 
-In Kubernetes, kube-proxy is a network proxy that runs on each worker node in the cluster.
+   - In Kubernetes, kube-proxy is a network proxy that runs on each worker node in the cluster.
 
-It is responsible for managing network connectivity between pods and services within the Kubernetes cluster.
+   - It is responsible for managing network connectivity between pods and services within the Kubernetes cluster.
 
-kube-proxy sets up network rules (e.g., iptables or IPVS rules) to distribute incoming traffic across the pods backing the service.
+   - kube-proxy sets up network rules (e.g., iptables or IPVS rules) to distribute incoming traffic across the pods backing the service.
 
-kube-proxy plays a crucial role in managing network connectivity, load balancing, and service discovery within Kubernetes clusters.
+   - kube-proxy plays a crucial role in managing network connectivity, load balancing, and service discovery within Kubernetes clusters.
 
 
 
