@@ -1,4 +1,4 @@
-
+```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -16,7 +16,7 @@ spec:
     secret:
       secretName: mysecret
  
-
+```
 
 
 
