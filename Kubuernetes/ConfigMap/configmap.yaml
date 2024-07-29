@@ -19,7 +19,7 @@ spec:
          path: sample.conf
 
 
-command: kubectl create congigmap mymap --from -file=<filename>
+command: kubectl create configmap mymap --from-file=<filename>
 `````````````````````````````````````````
 
 
