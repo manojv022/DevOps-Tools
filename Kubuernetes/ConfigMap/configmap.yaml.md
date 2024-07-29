@@ -41,6 +41,7 @@ create a file : vi sample.conf
 
 
 #environment variables:
+
 ```
 ```
 apiVersion: v1
