@@ -1,3 +1,6 @@
+
+# $${\color{darkblue} \textbf{Limit-Resources}}$$   
+
 In Kubernetes, the concepts of "limits" and "resources" are crucial for managing and optimizing the performance and stability of your containerized applications. Here's a breakdown of each:
 
 ### Resources
