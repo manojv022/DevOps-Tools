@@ -46,3 +46,26 @@ Terraform is an open-source infrastructure-as-code (IaC) tool created by HashiCo
 - **On-Premises Infrastructure**: Managing physical or virtual machines in a data center.
 
 By using Terraform, you can adopt modern practices for infrastructure management, leading to more reliable and efficient operations.
+
+
+
+
+
+
+### Block types 
+ -   1. `Provider` 
+ -   2. `Terraform` 
+ -   3. `Resource` 
+ -   4. `Data`
+ -   5. `Variable` 
+ -   6. `Output` 
+ -   7. `Modules` 
+
+### Terraform lifecycle 
+`init - to initialise terraform configuration` 
+
+`plan - to get blueprint of infra configuration`
+
+`apply - to implement the infra configuration` 
+
+`destroy - to destroy all the infra resources` 
