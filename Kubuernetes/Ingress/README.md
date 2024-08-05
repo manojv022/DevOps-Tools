@@ -86,3 +86,13 @@ In Kubernetes, **Ingress** is a powerful resource that manages external access t
 ### Summary
 
 Ingress in Kubernetes provides a flexible and powerful way to manage external traffic routing into your cluster, offering features like path-based routing, host-based routing, TLS termination, and load balancing. It’s typically used in combination with an Ingress Controller, which implements the routing rules defined in the Ingress resource.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/1a57749d-f215-44df-a3dc-2acc78a4d6c9)
