@@ -1,3 +1,6 @@
+# $${\color{blue} Ingress}$$
+
+
 In Kubernetes, **Ingress** is a powerful resource that manages external access to services within a cluster, typically HTTP and HTTPS traffic. Here's a detailed explanation of how it works and its key components:
 
 ### What is Ingress?
