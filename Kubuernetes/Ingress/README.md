@@ -93,6 +93,20 @@ Ingress in Kubernetes provides a flexible and powerful way to manage external tr
 
 
 
+````
+kubectl apply -f namespace.yaml
+kubectl apply -f ingress.yaml
+kubectl apply -f deployment.yaml
+````
+````
+kubectl get pod -n example
+````
+````
+kubectl exec -it  example-deployment-68c9985794-6zwzm -n example -- bash
+curl localhost
+````
+
+
 
 
 ![image](https://github.com/user-attachments/assets/1a57749d-f215-44df-a3dc-2acc78a4d6c9)
