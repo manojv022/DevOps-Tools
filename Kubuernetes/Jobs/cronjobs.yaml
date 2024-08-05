@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: CronJob
 metadata:
-  name: bhupi
+  name: manoj
 spec:
   schedule: "* * * * *"
   jobTemplate:
@@ -10,6 +10,6 @@ spec:
         spec:
           containers:
           - image: ubuntu
-            name: bhupi
-            command: ["/bin/bash", "-c", "echo Technical-Guftgu; sleep 5"]
+            name: manoj
+            command: ["/bin/bash", "-c", "echo vishnoi; sleep 5"]
           restartPolicy: Never
