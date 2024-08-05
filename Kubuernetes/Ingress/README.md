@@ -106,7 +106,8 @@ kubectl exec -it  example-deployment-68c9985794-6zwzm -n example -- bash
 curl localhost
 ````
 
+![image](https://github.com/user-attachments/assets/215a434f-0c7b-4bf1-a73f-990420cf4100)
 
 
 
-![image](https://github.com/user-attachments/assets/1a57749d-f215-44df-a3dc-2acc78a4d6c9)
+
