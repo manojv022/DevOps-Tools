@@ -1,14 +1,15 @@
 
-![image](https://github.com/user-attachments/assets/7bf2d30c-5a05-4b6b-a5dd-dafa6cd31f15)
+
 
 
 
 # $${\color{blue} \textbf {Jenkins}}$$
 
+- `Jenkins is heart of SDLC.` 
 
 
 
-Jenkins is a versatile automation server used predominantly for continuous integration (CI) and continuous delivery (CD). It automates the software development lifecycle by facilitating the building, testing, and deployment of applications. Let’s delve deeper into its components and functionalities:
+- Jenkins is a versatile automation server used predominantly for continuous integration (CI) and continuous delivery (CD). It automates the software development lifecycle by facilitating the building, testing, and deployment of applications. Let’s delve deeper into its components and functionalities:
 
 ### **Core Concepts**
 
