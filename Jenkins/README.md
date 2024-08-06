@@ -9,7 +9,7 @@
 
 - `Jenkins is heart of SDLC.` 
 
-- `Jenkins home Directory: /var/lib/jenkins`
+   - `Jenkins home Directory: /var/lib/jenkins`
 
 - Jenkins is a versatile automation server used predominantly for continuous integration (CI) and continuous delivery (CD). It automates the software development lifecycle by facilitating the building, testing, and deployment of applications. Let’s delve deeper into its components and functionalities:
 
