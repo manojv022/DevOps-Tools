@@ -1,4 +1,4 @@
-**Java install**
+- **Java install**
 ```
 
 sudo apt update
@@ -6,7 +6,7 @@ sudo apt install fontconfig openjdk-17-jre
 java -version
 
 ```
-**Jenkins Install**
+- **Jenkins Install on linux**
 ```
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
   https://pkg.jenkins.io/debian/jenkins.io-2023.key
