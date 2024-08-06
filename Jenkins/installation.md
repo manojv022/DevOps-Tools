@@ -1,3 +1,10 @@
+**launch Ec2 Instance**
+
+   - `ubuntu image`
+   - `t2.medium`
+   - `security group with 8080 port`
+   - `30 GIB Volume`
+
 - **Java install**
 ```
 
