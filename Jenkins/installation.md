@@ -34,5 +34,7 @@ sudo apt-get install jenkins
 ```
 ![image](https://github.com/user-attachments/assets/098cf8ca-ecc0-418a-80c0-5085412f0327)
 ![image](https://github.com/user-attachments/assets/dbbc7096-fb84-4f7e-930a-8a6014e5d4e9)
+![image](https://github.com/user-attachments/assets/9851254d-0dde-430e-856e-8a1213948c5a)
+
 ![image](https://github.com/user-attachments/assets/5bd49dfc-dc4f-4726-a6a8-b9994d95cc0e)
 
