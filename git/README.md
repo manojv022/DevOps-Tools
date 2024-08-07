@@ -15,37 +15,37 @@ git lab <we can't make private repo in >
 gitea < open source remote repo> / <it's generaly on-premisecs>
 git trotoise < windows shell interface to git>
 
-**Features of Git**
+- **Features of Git**
 
-- **`1. Version Control System:`**
+   - **`1. Version Control System:`**
 
 Git keeps track of all the changes made to files in a project. This way, you can go back to previous versions if needed.
 
-- **`2. Repositories:`**
+   - **`2. Repositories:`**
 
 A Git repository (or repo) is where your project’s files and their history are stored. There are two main types:
 
-- **`3. Local Repository:`** 
+   - **`3. Local Repository:`** 
 
 This is stored on your computer.
 
-- **`Remote Repository:`**
+   - **`Remote Repository:`**
 
    - This is stored on a server, like GitHub, so it can be accessed by multiple people.
 
-- **`Commits:`**
+   - **`Commits:`**
 
    - A commit is like a snapshot of your project at a specific point in time. It records changes made to the files.
 
-- **`Branches:`**
+   - **`Branches:`**
 
    - Branches allow you to work on different parts of a project separately. For example, you can have a “main” branch for stable code and a “feature” branch for new features you’re developing.
 
-- **`Merging:`**
+   - **`Merging:`**
 
    - When you’re done working on a branch, you can merge it back into the main branch. This combines your changes with the rest of the project.
 
-- **`Cloning:`**
+   - **`Cloning:`**
 
    - Cloning is making a copy of a remote repository on your local machine so you can work on it.
 
