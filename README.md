@@ -24,7 +24,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# $${\color{red} \textbf{git}}$$
+# $${\color{darkred} \textbf{git}}$$
 
 Git is a distributed version control system (DVCS) that allows developers to track changes in their codebase, collaborate with others, and manage different versions of their projects efficiently.
 
