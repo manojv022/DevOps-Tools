@@ -8,3 +8,6 @@
 7. Branching strategy?
 8. Merge vs rebase?
    
+
+
+![image](https://github.com/user-attachments/assets/747f9746-5d21-4308-a2ac-0ae06c16fa52)
